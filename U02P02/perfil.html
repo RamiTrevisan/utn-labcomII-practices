@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+
+  
+</head>
+<body>
+    
+    <H1>Bienvenido a tu perfil</H1>
+<br>
+    <form >
+
+        <label>Usuario:</label>
+        <input type="text" name="Usuario" id="Usuario" value="ESTUDIANTE" readonly="on">
+        <br>
+        <br>
+
+    
+        <label>Nombre y Apellido</label>
+        <input type="text" name="Nombre" id="Nombre">
+        <br>
+        <br>
+
+        <label>Mail:</label>
+        <input type="text" name="Mail" id="Mail">
+        <br>
+        <br>
+
+
+        <label>Edad:</label>
+        <input type="text" name="Edad" id="Edad" maxlength="2">
+        <br>
+        <br>
+    
+        <label>Nacionalidad:</label>
+        <select id="nacionalidad" name="nacionalidad">
+
+            <option value="AR">Argentina</option>
+            <option value="BR">Brasil</option>
+            <option value="CL">Chile</option>
+       
+        </select>
+
+        <br>
+        <br>
+
+        <label>Condicion Laboral:</label>
+        <select id="condicion" name="condicion">
+
+            <option value="D">Desempleado</option>
+            <option value="BL">En busqueda laboral</option>
+            <option value="PT">Trabajo part time</option>
+            <option value="FT">Trabajo full time</option>
+       
+        </select>
+
+        <br>
+        <br>
+
+        <div class="contenedor">
+            <h3>Gustos Personales</h3>
+            <label>Gustos Musicales</label>
+            <input type="text" name="gustosm" id="gustosm">
+            <br>
+            <br>
+
+            <label>Comidas Preferidas</label>
+            <select name="Comidas" id="Comidas">
+
+                <option value="H">Hamburguesa</option>
+                <option value="P">Pizza</option>
+                <option value="C">Carne</option>                
+
+            </select>
+
+            <br><br>
+
+            <label>Recordar Datos</label>
+            <input type="checkbox">
+
+            <br><br>
+
+            <input type="button" value="Enviar">
+        </div>
+
+
+    </form>
+
+</body>
+</html>
